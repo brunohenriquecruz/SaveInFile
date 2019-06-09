@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvLabel"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/edtNome" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/edtEmail" />
+
+        <TextView
+            android:id="@+id/tvLabelCnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tvLabelCnh"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/cbPHP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cbCnh" />
+
+        <TextView
+            android:id="@+id/tvLabelSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tvLabelSexo"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rgSexo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rbMasculino" />
+
+            <RadioButton
+                android:id="@+id/rbFeminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rbFeminino" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvLabelSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tvLabelSalvar"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rgFile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbInterno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rbInterno" />
+
+            <RadioButton
+                android:id="@+id/rbExterno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/rbExterno" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCadastrar" />
+
+        <TextView
+            android:id="@+id/tvRes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvRes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvRes2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvRes3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvRes4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+</ScrollView>

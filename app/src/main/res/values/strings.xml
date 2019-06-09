@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SaveInFile</string>
+    <string name="edtNome">Name</string>
+    <string name="edtEmail">Email</string>
+    <string name="tvLabel">Cadastro Usuário</string>
+    <string name="tvLabelCnh">Possui CNH?</string>
+    <string name="tvLabelSalvar">Salvar Dados: Interno ou Externo?</string>
+    <string name="tvLabelSexo">Sexo</string>
+    <string name="rbMasculino">Masculino</string>
+    <string name="rbFeminino">Feminino</string>
+    <string name="rbInterno">Interno</string>
+    <string name="rbExterno">Externo</string>
+    <string name="cbCnh">Sim, Possuo!</string>
+    <string name="btnCadastrar">Cadastrar</string>
+
+
+
+
+</resources>
