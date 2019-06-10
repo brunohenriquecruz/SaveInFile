@@ -13,6 +13,12 @@
     <string name="cbCnh">Sim, Possuo!</string>
     <string name="btnCadastrar">Cadastrar</string>
 
+    <string name="tvResNome"></string>
+    <string name="tvResEmail"></string>
+    <string name="tvResCnh"></string>
+    <string name="tvResSexo"></string>
+
+
 
 
 

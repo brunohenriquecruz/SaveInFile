@@ -45,7 +45,7 @@
             android:textSize="18sp" />
 
         <CheckBox
-            android:id="@+id/cbPHP"
+            android:id="@+id/cbCNH"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cbCnh" />
@@ -117,31 +117,31 @@
             android:text="@string/btnCadastrar" />
 
         <TextView
-            android:id="@+id/tvRes1"
+            android:id="@+id/tvLabelDados"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/tvRes"
+            android:id="@+id/tvResNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/tvRes2"
+            android:id="@+id/tvResEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/tvRes3"
+            android:id="@+id/tvResSexo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/tvRes4"
+            android:id="@+id/tvResCnh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
