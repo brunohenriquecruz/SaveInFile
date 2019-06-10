@@ -24,16 +24,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/edtNome" />
+            android:hint="@string/edtNome"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="@string/edtEmail" />
+            android:hint="@string/edtEmail"
+            android:inputType="textEmailAddress" />
 
         <TextView
             android:id="@+id/tvLabelCnh"

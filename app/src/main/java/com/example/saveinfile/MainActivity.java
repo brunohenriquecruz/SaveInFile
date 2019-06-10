@@ -1,5 +1,6 @@
 package com.example.saveinfile;
 
+import android.content.Intent;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -45,14 +46,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         cadastar = (Button) findViewById(R.id.btnCadastrar);
         cadastar.setOnClickListener(this);
-
     }
 
     public void onStart() {
         super.onStart();
-        //lerArquivoInterno();
-        lerArquivoExterno();
-
+        lerArquivoInterno();
+        //lerArquivoExterno();
     }
 
     @Override
@@ -73,6 +72,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     getSexo()
             );
         }
+
+        finish();
+        startActivity(getIntent());
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+
     }
 
     public String getCNH() {

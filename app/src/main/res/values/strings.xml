@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SaveInFile</string>
-    <string name="edtNome">Name</string>
-    <string name="edtEmail">Email</string>
+    <string name="edtNome">Digite seu nome</string>
+    <string name="edtEmail">Digite seu email</string>
     <string name="tvLabel">Cadastro Usuário</string>
     <string name="tvLabelCnh">Possui CNH?</string>
     <string name="tvLabelSalvar">Salvar Dados: Interno ou Externo?</string>
