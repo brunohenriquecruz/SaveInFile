@@ -18,6 +18,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+import static android.os.Environment.getExternalStorageDirectory;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     EditText edtNome, edtEmail;
@@ -50,8 +52,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void onStart() {
         super.onStart();
-        lerArquivoInterno();
-        //lerArquivoExterno();
+
+        //lerArquivoInterno();
+        lerArquivoExterno();
+//        if(getSave().equals("Externo"))
+//            lerArquivoExterno();
+//        if(getSave().equals("Interno"))
+//            lerArquivoInterno();
     }
 
     @Override
@@ -64,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     getCNH(),
                     getSexo()
             );
-        } else {
+        } else if (getSave().equals("Externo")){
             salvarArquivoInterno(
                     this.edtNome.getText().toString(),
                     this.edtEmail.getText().toString(),
@@ -224,7 +231,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String estado = Environment.getExternalStorageState();
 
             if (estado.equals(Environment.MEDIA_MOUNTED)) {
-                File dir = getExternalFilesDir(null);
+                File dir = getFilesDir();
                 File file = new File(dir + "/ExternalUser.txt");
 
                 if (file.exists()) {
